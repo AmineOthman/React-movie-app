@@ -1,0 +1,101 @@
+.TabContainer{
+  border: 2px solid;
+  width: 550px;
+  height: 700px;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+ 
+}
+
+.AppContainer{
+  border: 2px solid;
+  width: 450px;
+  height: 600px;
+  border-radius: 0px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  
+}
+.dot{
+  width: 30px;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 275px;
+  top: 5px
+}
+.Search-bar{
+  margin: 20px;
+  
+}
+.Search-bar button{
+  width: 25%;
+  height: 36px;
+  border: 2px solid;
+  border-left: none;
+  
+
+}
+.Search-bar input{
+  width: 50%;
+  height: 30px;
+  border: 2px solid;
+  
+}
+.header{
+  display: flex;
+  
+}
+.rating-filter{
+  line-height: 0.3rem;
+  position: relative;
+  left: 20px;
+  top:-10px;
+}
+.movie-card-container{
+  border: 2px solid;
+  width: 150px;
+  height: 250px;
+  margin: 15px 15px;
+    
+}
+.logo{
+  width: 150px;
+  height: 150px;
+
+}
+.movieRating{
+  text-align: center;
+}
+
+
+.movies-list{
+ 
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  height: 494px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-left: 40px
+}
+.movieDescription{
+  font-size: 0.8rem;
+  text-align: center
+}
+.add-movie{
+  border: 2px solid;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  margin: 15px 15px;
+}
+.add-movie p {
+  margin-top: 60px;
+  font-size: 5rem
+}
